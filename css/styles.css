@@ -1,0 +1,35 @@
+/* Consolidated stylesheet for production: imports original exported files
+   This keeps the original cascade and guarantees identical visuals while
+   simplifying the HTML references. */
+@import "normalize.css";
+@import "webflow.css";
+@import "wrp-3653b4.webflow.css";
+
+/* Additional project-specific overrides can go below */
+
+/* Ensure dropdown menu displays properly - full width, aligned left, no scroll */
+/* .dropdown-menu {
+    display: none !important;
+    position: fixed !important;
+    top: 60px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    inset: auto !important;
+    z-index: 999 !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+    box-shadow: 0 5px 5px -2.5px #0041850a, 0 32px 64px -12px #00418524;
+}
+
+.dropdown-menu.w--open {
+    display: block !important;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: auto !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
